@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="10399Mark"/>
+    <parameter name="URL" value="https://tutorialsninja.com/demo/"/>
+    <parameter name="username" value="faragsally7@gmoal.com"/>
+    <classes>
+      <class name="TutorialsNinja.Login">
+        <methods>
+          <include name="TutorialsLogin"/>
+          <include name="InvalidLogin"/>
+          <include name="quit"/>
+          <include name="tearDown"/>
+          <include name="Tutorials"/>
+        </methods>
+      </class> <!-- TutorialsNinja.Login -->
+      <class name="TutorialsNinja.Registration">
+        <methods>
+          <include name="LaunchURL"/>
+          <include name="logout"/>
+          <include name="regtster"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TutorialsNinja.Registration -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

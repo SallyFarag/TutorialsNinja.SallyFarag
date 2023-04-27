@@ -1,0 +1,4 @@
+baseURL=https://tutorialsninja.com/demo/
+UserName=faragsally7@gmoal.com
+password=10399Mark
+ChromePath=./Drivers\\chromedriver.exe

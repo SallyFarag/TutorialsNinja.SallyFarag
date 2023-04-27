@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name="URL" value="https://tutorialsninja.com/demo/"/>
+   <parameter name="username" value="faragsally7@gmoal.com"/>
+    <parameter name="password" value="10399Mark"/>
+    <classes>
+      <class name="TutorialsNinja.SearchProduct"/>
+      <class name="TutorialsNinja.ExtentReport"/>
+      <class name="TutorialsNinja.Login"/>
+      <class name="TutorialsNinja.BaseClass"/>
+      <class name="TutorialsNinja.Registration"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
